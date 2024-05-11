@@ -21,13 +21,18 @@ Print the assigned variable's length using len(word)
 End the program
 ## PROGRAM:
 ```
-
-
-
+#developed by:Ezhil Nevedha.K
+#register number : 212223230055
+import sys
+f1=open(sys.argv[0])
+data=f1.read()
+word=data.split()
+print("The word count is ",len(word))
+f1.close()
 
 ```
 ### OUTPUT:
-
+![alt text](<Screenshot 2024-05-11 213740.png>)
 
 
 ## RESULT:
